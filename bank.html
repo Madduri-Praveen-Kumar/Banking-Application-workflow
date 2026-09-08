@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Banking System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="bank">
+
+        <h1>Mini Banking System</h1>
+
+        <p>Account Balance:</p>
+        <h2 id="balance">0</h2>
+
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <input type="number" id="amount" placeholder="Enter amount">
+
+        <br>
+
+        <div>
+
+            <button onclick="deposit()">Deposit</button><br>
+
+            <button onclick="withdraw()">Withdraw</button><br>
+
+            <button onclick="checkBalance()">Check Balance</button><br>
+
+        </div>
+
+        <p id="message">hello</p>
+
+    </div>
+
+    <script src="bank.js"></script>
+
+</body>
+</html>
