@@ -1,4 +1,4 @@
-let balance = 0;
+let balance = 1;
 function deposit() {
 
     let amount=Number(document.getElementById("amount").value)
